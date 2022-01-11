@@ -20,5 +20,29 @@
 
 
 body {
+    width: 100%;
     font-family: 'Roboto', sans-serif;
+    background: #FFD845;
+}
+
+
+.pokemon__heading-img {
+    width: 610px;
+    height: 225px;
+}
+
+.pokemon__first-select {
+    margin-top: 70px;
+    width: 260px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.pokemon__first-select::placeholder {
+    color: #000;
+}
+
+.pokemon__first-select + .pokemon__first-select {
+    margin-left: 35px;
 }
