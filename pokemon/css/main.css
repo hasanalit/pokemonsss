@@ -46,7 +46,7 @@ body {
     margin-top: 70px;
     width: 260px;
     height: 60px;
-    border: 3px solid #000;
+    border: 2px solid #000;
     border-radius: 15px;
     font-weight: bold;
     font-size: 24px;
@@ -72,7 +72,7 @@ body {
     width: 307px;
     height: 423px;
     background-color: #fff;
-    border: 3px solid #000;
+    border: 2px solid #000;
     border-radius: 15px;
 }
 
@@ -87,6 +87,12 @@ body {
 
 .pokemon__list-section {
     padding: 0px 30px 37px;
+}
+
+.card-img-top {
+    margin-top: 30px;
+    width: 157px;
+    height: 157px;
 }
 
 .card-title {
