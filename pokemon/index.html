@@ -20,7 +20,7 @@
                 <img class="pokemon__heading-img" src="./images/pokemon_logo 1.png" alt="pokemons-logo">
                 <!-- <img src="./images/heart.png" alt="pokemon-heart"> -->
 
-                <form class="form d-flex">
+                <form class="form d-flex text-center">
                     <select class="form-select pokemon__first-select" aria-label="Default select example">
                         <option selected><p>Gross</p><img src="./images/chevron-down.svg" alt="chevron"></option>
                         <option value="1">One</option>
@@ -42,17 +42,25 @@
 
 
 
-                <ul class="pokemon__list">
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                <ul class="pokemon__list d-flex flex-wrap">
+                    <li class="pokemon__item">
+                        <div class="pokumon__img-section"><img src="..." class="card-img-top" alt="pokumon"></div>
+
+                            <div class="card-body pokemon__list-section">
+                                <img class="pokemon__list-line" src="./images/line.png" alt="black line">
+                                <div class="d-flex">
+                                    <h5 class="card-title">Card title</h5>
+                                    <img src="./images/heart.png" alt="pokemon-heart" width="30" height="30"></div>
+
+                              <p class="card-text pokumon__list-desc">Grass, Poison</p>
+                              <div class="pokumon__item-section d-flex">
+                                  <p class="pokumon__weight">6.9 kg</p>
+                                  <p class="pokumon__age pokumon__weight">99 age</p>
+                              </div>
                             </div>
-                          </div>
                     </li>
+
+
                 </ul>
             </div>
         </section>
